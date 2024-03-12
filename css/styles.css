@@ -1,0 +1,36 @@
+
+body {
+    color:grey;
+    font-size: 18px;
+    border: 1px solid #333;
+}
+
+/* p {
+    color:brown;
+} */
+.item-text {
+    color: inherit;
+}
+.list-item>.item-text{
+    color: inherit;
+}
+#text {
+    color: red !important;
+}
+/* p{
+    color: cadetblue ;
+
+} */
+a[href="#"][title='hello'] {
+    /* така властивість спрацює тільки для посилань, */
+    color: red;
+    border: inherit;
+    background-color: inherit;
+    font-size: inherit;
+    /* які одночасно містять атрибути href та title */
+}
+header a:hover,
+header a:focus,
+header a:visited {
+    color:violet;
+}
